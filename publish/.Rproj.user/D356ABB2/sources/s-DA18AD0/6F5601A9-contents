@@ -1,0 +1,17 @@
+---
+title: "publish"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+Agenda:
+
+1. review github and file structure
+2. go through series of R demos (vignettes)
+* Diagrammer: draw your own work flows
+* Data simulation and check ANOVA
+  * graph results
+* Make map of United States
+* Grab Andrew Nguyen's data set and play with his data
