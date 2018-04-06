@@ -15,3 +15,28 @@ Agenda:
   * graph results
 * Make map of United States
 * Grab Andrew Nguyen's data set and play with his data
+```{r}
+library(ggplot2)
+library(dplyr)
+library(data.table)
+library(tidyr)
+library(DiagrammeR)
+library(maps)
+library(mapdata)
+
+```
+{r Diagrammer demo}
+mermaid("
+graph TD
+A[Make dataset sampling same distribution]-->B[Run statistics]
+ C[Make dataset sampling diff distribution]-->B
+ B--> D[Compare results]")
+ 
+ mermaid("
+graph RL
+A[Make dataset]-->B[Run statistics]
+ ")
+ 
+```
+##Data simulation
+
